@@ -1,0 +1,12 @@
+<apex:page extensions="QuickbookConnection" standardController="Quickbook_Invoice__c">
+    <apex:slds />
+    <apex:form id="theForm" > 
+        <apex:pageblock >  
+            <apex:pageMessages ></apex:pageMessages>
+            <apex:pageBlockButtons location="top">
+                <apex:commandButton action="{!getConnectionCode}" value="Authorize" />
+                <apex:commandButton action="{!getAccessToken}" value="Get Token"  reRender="theForm" />
+            </apex:pageBlockButtons> 
+        </apex:pageblock>
+    </apex:form>
+</apex:page>

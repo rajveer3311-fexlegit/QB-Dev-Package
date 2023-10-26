@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MTX_IT_Consulting_Services_Private_Limit</fullName>
+    <columns>NAME</columns>
+    <columns>Invoice_Date__c</columns>
+    <columns>Due_Date__c</columns>
+    <columns>Sub_Total__c</columns>
+    <columns>Tax__c</columns>
+    <columns>Balance_Due__c</columns>
+    <columns>Total_Amount__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Account__c</field>
+        <operation>equals</operation>
+        <value>MTX IT Consulting Services Private Limited</value>
+    </filters>
+    <label>MTX IT Consulting Services Private Limit</label>
+</ListView>

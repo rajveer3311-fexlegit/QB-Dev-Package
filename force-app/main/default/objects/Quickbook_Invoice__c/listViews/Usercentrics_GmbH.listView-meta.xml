@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Usercentrics_GmbH</fullName>
+    <columns>NAME</columns>
+    <columns>Invoice_Date__c</columns>
+    <columns>Due_Date__c</columns>
+    <columns>Sub_Total__c</columns>
+    <columns>Tax__c</columns>
+    <columns>Balance_Due__c</columns>
+    <columns>Total_Amount__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Account__c</field>
+        <operation>equals</operation>
+        <value>Usercentrics GmbH</value>
+    </filters>
+    <label>Usercentrics GmbH</label>
+</ListView>

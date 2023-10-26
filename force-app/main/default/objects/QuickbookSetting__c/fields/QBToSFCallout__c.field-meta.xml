@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>QBToSFCallout__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>This field is used to able or disable callout from between Quickbook online to salesforce org.</description>
+    <externalId>false</externalId>
+    <label>QBToSFCallout</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>
